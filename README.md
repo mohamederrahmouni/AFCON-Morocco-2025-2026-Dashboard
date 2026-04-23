@@ -92,4 +92,5 @@ pip install -r requirements.txt
 ```bash
 streamlit run AFCON_Dashboard.py
 ```
-
+##  The dashboard link
+[https://github.com/username/mon_projet](https://afcon-morocco-25-26-dashboard.streamlit.app/)
