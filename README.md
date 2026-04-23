@@ -91,6 +91,5 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run AFCON_Dashboard.py
-<<<<<<< HEAD
 ```
 
