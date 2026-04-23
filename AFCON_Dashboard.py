@@ -281,7 +281,7 @@ else:
    st.divider() 
    
    #filter players
-   st.sidebar.image(r"C:\Users\dell\Desktop\AFCON_Dashboard\Pictures\AFCON_logo.png")
+   st.sidebar.image(r"Pictures/AFCON_logo.png")
    search = st.sidebar.text_input("🔍 Search a player")
    positions=st.sidebar.multiselect("📍Choose the position of players ",players['position'].unique())
    players_selection=players.query("position in @positions")
