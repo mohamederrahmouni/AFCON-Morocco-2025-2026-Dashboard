@@ -93,5 +93,4 @@ pip install -r requirements.txt
 streamlit run AFCON_Dashboard.py
 <<<<<<< HEAD
 ```
-=======
->>>>>>> a139b61 (Initial commit)
+
