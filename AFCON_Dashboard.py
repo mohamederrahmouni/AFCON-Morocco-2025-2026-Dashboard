@@ -9,8 +9,8 @@ import plotly.graph_objects as go
 
 st.set_page_config(page_title="AFCON Morocco 2025-2026 Dashboard",page_icon=":soccer:",layout="wide",initial_sidebar_state="expanded")
 
-afcon=pd.read_csv(r"C:\Users\dell\Desktop\AFCON_Dashboard\AFCON-2025-Matches-Stats.csv")
-players=pd.read_csv(r"C:\Users\dell\Desktop\AFCON_Dashboard\AFCON-2025-Players-Stats.csv")
+afcon=pd.read_csv(r"AFCON-2025-Matches-Stats.csv")
+players=pd.read_csv(r"AFCON-2025-Players-Stats.csv")
 team_stat = pd.concat([afcon[["team1","team1_goals","team1_shots","team1_shots_on_target","team1_possession","team1_fouls","team1_red_cards","team1_yellow_cards"]].rename(columns={"team1":"Team","team1_goals":"Goals","team1_shots":"Shots","team1_shots_on_target":"Shots on target","team1_possession":"Possession","team1_fouls":"Fouls","team1_red_cards":"Red cards","team1_yellow_cards":"Yellow cards"}),afcon[["team2","team2_goals","team2_shots","team2_shots_on_target","team2_possession","team2_fouls","team2_red_cards","team2_yellow_cards"]].rename(columns={"team2": "Team","team2_goals":"Goals","team2_shots":"Shots","team1_shots_on_target":"Shots on target","team2_possession":"Possession","team2_fouls":"Fouls","team2_red_cards":"Red cards","team2_yellow_cards":"Yellow cards"})],axis=0)
 
 
@@ -21,14 +21,14 @@ st.divider()
 if opt_menu =="Home":
  st.markdown("<h1 style='text-align: center;'>Welcome to the AFCON Morocco 2025 Dashboard</h1>",unsafe_allow_html=True)
  st.divider()
- st.image(r"C:\Users\dell\Desktop\AFCON_Dashboard\Pictures\AFCON_logo.png",use_container_width=True)
+ st.image(r"Pictures/AFCON_logo.png",use_container_width=True)
 
  col1,col2=st.columns(2)
  with col1:
-  st.image(r"C:\Users\dell\Desktop\AFCON_Dashboard\Pictures\Img1.jpeg",use_container_width=True)
+  st.image(r"Pictures/Img1.jpeg",use_container_width=True)
 
  with col2:
-  st.image(r"C:\Users\dell\Desktop\AFCON_Dashboard\Pictures\Img2.jpeg",use_container_width=True)
+  st.image(r"Pictures/Img2.jpeg",use_container_width=True)
 
 #Africa cup overview
 elif opt_menu == "Competition Overview":
