@@ -13,7 +13,7 @@ This project involves designing an interactive dashboard that summarizes **Afric
 ---
 
 ![System Architecture](Pictures/Img4.png)
->>>>>>> a139b61 (Initial commit)
+
 
 ---
 
