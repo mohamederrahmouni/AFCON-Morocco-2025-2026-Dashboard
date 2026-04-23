@@ -1,5 +1,5 @@
 # AFCON-Morocco-2025-2026-Dashboard
-Building an interactive dashboard for the Africa Cup of Nations Morocco 2025 using Streamlit and Plotly, containing statistics on matches, teams, and players.
+
 
 ## 📌 Project Description
 This project involves designing an interactive dashboard that summarizes **Africa Cup of Nations (AFCON)** statistics and facilitates data analysis, as well as the understanding of the tournament’s key indicators.
